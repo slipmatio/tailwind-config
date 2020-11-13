@@ -1,6 +1,6 @@
 {
   "name": "@slipmatio/tailwind-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common TailwindCSS configuration for Slipmat projects",
   "main": "index.js",
   "repository": "https://gitlab.com/slipmatio/tailwind-config",

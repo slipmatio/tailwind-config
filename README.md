@@ -18,7 +18,7 @@ First install the package:
 yarn add -D @slipmatio/tailwind-config
 ```
 
-then add `require('@sipmatio/tailwind-config')` to `presets` array in `tailwind.config.js`.
+then add `require('@slipmatio/tailwind-config')` to `presets` array in `tailwind.config.js`.
 
 You can then extend the config if you want. Extended properties override the defaults:
 
@@ -26,7 +26,7 @@ You can then extend the config if you want. Extended properties override the def
 // tailwind.config.js
 
 module.exports = {
-  presets: [require('@sipmatio/tailwind-config')],
+  presets: [require('@slipmatio/tailwind-config')],
   theme: {
     extend: {
       fontFamily: {
