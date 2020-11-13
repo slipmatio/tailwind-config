@@ -1,0 +1,39 @@
+{
+  "name": "@slipmatio/tailwind-config",
+  "version": "0.0.1",
+  "description": "Common TailwindCSS configuration for Slipmat projects",
+  "main": "index.js",
+  "repository": "https://gitlab.com/slipmatio/tailwind-config",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "tailwind",
+    "slipmatio",
+    "config"
+  ],
+  "author": {
+    "name": "Ville Säävuori",
+    "email": "ville@unessa.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/slipmatio/tailwind-config/-/issues"
+  },
+  "homepage": "https://gitlab.com/slipmatio/tailwind-config",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.2.0",
+    "@tailwindcss/ui": "^0.7.2",
+    "tailwindcss": "^1.9.6"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
