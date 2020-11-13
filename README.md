@@ -38,3 +38,5 @@ module.exports = {
 ```
 
 More from [Tailwind documentation](https://tailwindcss.com/docs/).
+
+[Follow @Uninen](https://twitter.com/uninen) on Twitter.
