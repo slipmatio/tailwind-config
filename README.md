@@ -1,9 +1,9 @@
 Common TailwindCSS configuration for Slipmat.io projects.
 
-It adds
+Configures:
 
-- Slipmat colors
-- Slipmat font added to Tailwind default sans fonts
+- Slipmat colors (as `slipmat` key)
+- Play font added to default sans fonts
 - PurgeCSS tweaked for Vue CLI TS projects
 - Plugins:
   - `@tailwindcss/ui`
@@ -18,7 +18,9 @@ First install the package:
 yarn add -D @slipmatio/tailwind-config
 ```
 
-You can then extend the config:
+then add `require('@sipmatio/tailwind-config')` to `presets` array in `tailwind.config.js`.
+
+You can then extend the config if you want. Extended properties override the defaults:
 
 ```js
 // tailwind.config.js
