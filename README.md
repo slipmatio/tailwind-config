@@ -1,14 +1,15 @@
-Common TailwindCSS configuration for Slipmat.io projects.
+Common TailwindCSS configuration for Slipmat.io projects. The project versioning follows Tailwind major versions (ie. v2.x of this package use Tailwind 2.x).
 
-Configures:
+This configuration adds:
 
-- Slipmat colors (as `slipmat` key)
-- Play font added to default sans fonts
-- PurgeCSS tweaked for Vue CLI TS projects
+- Slipmat colors:
+  - `slipmat` for Slipmat red (`slipmat-500` is the logo color)
+- Play font to default sans fonts
+- PurgeCSS for Vue CLI TS projects
 - Plugins:
-  - `@tailwindcss/ui`
+  - `@tailwindcss/forms`
   - `@tailwindcss/typography`
-  - `@tailwindcss/custom-forms`
+  - `@tailwindcss/aspect-ratio`
 
 # Usage
 
@@ -35,6 +36,16 @@ module.exports = {
     },
   },
 }
+```
+
+Install the Play font by adding following tags to the `<head>` of the main template:
+
+```html
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 More from [Tailwind documentation](https://tailwindcss.com/docs/).

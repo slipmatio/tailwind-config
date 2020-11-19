@@ -8,16 +8,10 @@ const defaultTheme = require('tailwindcss/defaultTheme')
  */
 
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-    defaultLineHeights: true,
-    standardFontWeights: true,
-  },
   purge: {
     enabled: process.env.NODE_ENV === 'production',
     content: [
-      './public/index.html',
+      './public/**/*.html',
       './src/**/*.html',
       './src/**/*.vue',
       './src/**/*.ts',
@@ -48,10 +42,8 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/ui')({
-      layout: 'sidebar',
-    }),
+    require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
-    require('@tailwindcss/custom-forms'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
