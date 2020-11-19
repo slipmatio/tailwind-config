@@ -1,6 +1,6 @@
 {
   "name": "@slipmatio/tailwind-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Common TailwindCSS configuration for Slipmat projects",
   "main": "index.js",
   "repository": "https://gitlab.com/slipmatio/tailwind-config",
@@ -25,7 +25,7 @@
   "files": [
     "index.js"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@tailwindcss/forms": "~0.2",
     "@tailwindcss/typography": "~0.3",
     "@tailwindcss/aspect-ratio": "~0.2"

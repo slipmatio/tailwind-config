@@ -1,3 +1,7 @@
+# 2.0.1 (2020-11-19)
+
+- Moved plugins as full deps
+
 # 2.0.0 (2020-11-19)
 
 - Converted to Tailwind 2.0 (compat build)
