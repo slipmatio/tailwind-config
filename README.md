@@ -10,6 +10,7 @@ This configuration adds:
   - `@tailwindcss/forms`
   - `@tailwindcss/typography`
   - `@tailwindcss/aspect-ratio`
+  - `@tailwindcss/line-clamp`
 
 # Usage
 
