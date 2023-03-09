@@ -1,23 +1,13 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 /*
- ** TailwindCSS Configuration File
- **
- ** Docs: https://tailwindcss.com/docs/configuration
- ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
+ * TailwindCSS Configuration File
+ *
+ * Docs: https://tailwindcss.com/docs/presets
+ * Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
+ * @type {import('tailwindcss').Config}
  */
-
 module.exports = {
-  purge: {
-    enabled: process.env.NODE_ENV === 'production',
-    content: [
-      './public/**/*.html',
-      './src/**/*.html',
-      './src/**/*.vue',
-      './src/**/*.ts',
-      './src/**/*.js',
-    ],
-  },
   theme: {
     container: {
       center: true,
@@ -41,9 +31,4 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
-  ],
 }

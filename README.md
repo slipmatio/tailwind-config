@@ -1,25 +1,17 @@
-This project has moved to GitHub: https://github.com/slipmatio/tailwind-config
-
-Common TailwindCSS configuration for Slipmat.io projects. The project versioning follows Tailwind major versions (ie. v2.x of this package use Tailwind 2.x).
+Common TailwindCSS configuration for Slipmat.io projects. The project versioning follows Tailwind major versions (ie. v3.x of this package use Tailwind 3.x).
 
 This configuration adds:
 
 - Slipmat colors:
   - `slipmat` for Slipmat red (`slipmat-500` is the logo color)
 - Play font to default sans fonts
-- PurgeCSS for Vue CLI TS projects
-- Plugins:
-  - `@tailwindcss/forms`
-  - `@tailwindcss/typography`
-  - `@tailwindcss/aspect-ratio`
-  - `@tailwindcss/line-clamp`
 
 # Usage
 
 First install the package:
 
 ```
-yarn add -D @slipmatio/tailwind-config
+pnpm add -D @slipmatio/tailwind-config
 ```
 
 then add `require('@slipmatio/tailwind-config')` to `presets` array in `tailwind.config.js`.
