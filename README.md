@@ -6,7 +6,7 @@ This configuration adds:
   - `slipmat` for Slipmat red (`slipmat-500` is the logo color)
 - Play font to default sans fonts
 
-# Usage
+## Usage
 
 First install the package:
 
@@ -42,6 +42,12 @@ Install the Play font by adding following tags to the `<head>` of the main templ
   rel="stylesheet"
 />
 ```
+
+## Publishing
+
+`pnpm publish --access public`
+
+## Elsewhere
 
 More from [Tailwind documentation](https://tailwindcss.com/docs/).
 
