@@ -1,3 +1,5 @@
+This project has moved to GitHub: https://github.com/slipmatio/tailwind-config
+
 Common TailwindCSS configuration for Slipmat.io projects. The project versioning follows Tailwind major versions (ie. v2.x of this package use Tailwind 2.x).
 
 This configuration adds:
