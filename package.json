@@ -1,6 +1,6 @@
 {
   "name": "@slipmatio/tailwind-config",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Common TailwindCSS configuration for Slipmat projects",
   "main": "index.js",
   "repository": "https://github.com/slipmatio/tailwind-config",
@@ -19,12 +19,15 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/slipmatio/tailwind-config/issues"
+    "url": "https://github.com/slipmatio/slipmatio/issues"
   },
   "homepage": "https://slipmat.io",
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "tailwindcss": "3"
+  },
   "prettier": {
     "printWidth": 100,
     "semi": false,
