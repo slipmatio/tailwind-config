@@ -3,7 +3,7 @@
   "version": "2.1.0",
   "description": "Common TailwindCSS configuration for Slipmat projects",
   "main": "index.js",
-  "repository": "https://gitlab.com/slipmatio/tailwind-config",
+  "repository": "https://github.com/slipmatio/tailwind-config",
   "publishConfig": {
     "access": "public"
   },
@@ -19,21 +19,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/slipmatio/tailwind-config/-/issues"
+    "url": "https://github.com/slipmatio/tailwind-config/issues"
   },
-  "homepage": "https://gitlab.com/slipmatio/tailwind-config",
+  "homepage": "https://slipmat.io",
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "@tailwindcss/aspect-ratio": "~0.2",
-    "@tailwindcss/forms": "~0.2",
-    "@tailwindcss/line-clamp": "~0.2",
-    "@tailwindcss/typography": "~0.4"
-  },
-  "peerDependencies": {
-    "tailwindcss": ">=2.0.1-compat"
-  },
   "prettier": {
     "printWidth": 100,
     "semi": false,
