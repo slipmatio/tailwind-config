@@ -21,6 +21,7 @@ You can then extend the config if you want. Extended properties override the def
 ```js
 // tailwind.config.js
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   presets: [require('@slipmatio/tailwind-config')],
   theme: {
